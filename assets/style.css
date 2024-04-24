@@ -23,6 +23,7 @@ h1 {
   padding-left: 7px;
   color: rgb(230, 230, 230);
   text-shadow: 3px 3px 3px rgb(25, 25, 25);
+  font-family: "Montserrat";
 }
 
 main {
@@ -36,10 +37,32 @@ main {
   box-shadow: 0px 0px 15px 20px black;
 }
 
+h2, p {
+  font-family: "Arvo";
+  line-height: 2;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+}
+
 main img {
   max-width: 40%;
   min-width: 350px;
   max-height: 500px;
+  padding: 15px;
+}
+
+#sideshow img {
+  float: left;
+}
+
+#sideshow p {
+  vertical-align: center;
 }
 
 section {
@@ -59,6 +82,7 @@ section {
 .slideshow-container {
   display: flex;
   overflow-x: hidden;
+  margin: 35px;
 }
 
 .card {
@@ -118,4 +142,36 @@ footer p {
 
 footer p a {
   color: white;
+}
+
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
 }
